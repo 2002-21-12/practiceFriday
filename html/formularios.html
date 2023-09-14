@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <img src="/multimedia/Bootstrap.png" height="100px" width="100px" alt="">
+    <a href="/index.html">Ir a Inicio</a>
+    <h1>Formularios</h1>
+    <form name="userdata" method="post" action="/send/">
+      <input type="text" name="username" />
+      <input type="submit" /><br>
+      Password: <input type="password" name="pass" placeholder="Contraseña"><br>
+    </form>
+
+    <form method="post" action="/send/">
+  <label for="name">Nombre de usuario:</label>
+  <input id="name" placeholder="Por ej: John Smith">
+
+  <label for="age">Edad:</label>
+  <input id="age" type="number" min="18" placeholder="18">
+</form>
+    <form method="post" action="/send/">
+      URL:
+      <input type="url" name="web" placeholder="https://pagina.com/" /><br>
+      Teléfono:
+      <input type="tel" name="telefono" placeholder="+XX XXX XXXXXX" /><br> Email:
+      <input type="email" name="correo" placeholder="nombre@dominio.com" />
+    </form>
+
+    <form method="post" action="/send/">
+  Selecciona la fecha deseada:
+  <input type="date" value="2024-09-22"
+         min="2024-02-25" max="2024-12-25" step="2">
+</form>
+
+
+<form method="post" action="/send/">
+  Selecciona la fecha deseada:
+  <input type="datetime-local" value="2024-07-23T11:00"
+         min="2024-03-23T11:00" max="2024-11-23T11:00" step="3600">
+</form>
+
+<form method="post" action="/send/">
+  Selecciona la opción deseada:
+  <select>
+    <option value="1">Opción 1</option>
+    <option value="2">Opción 2</option>
+    <option value="3">Opción 3</option>
+  </select>
+</form>
+
+<form method="post" action="/send/">
+  Selecciona la opción deseada:
+  <select>
+    <optgroup label="Categoría 1">
+      <option value="1">Opción 1</option>
+      <option value="2">Opción 2</option>
+    </optgroup>
+    <optgroup label="Categoría 2">
+      <option value="3">Opción 3</option>
+      <option value="4">Opción 4</option>
+      <option value="5">Opción 5</option>
+    </optgroup>
+  </select>
+</form>
+
+<form method="post" action="/send/">
+  Selecciona el color deseado:
+  <input type="color" value="#1BF44A">
+</form>
+
+<form method="post" action="/send/">
+  <meter min="0" max="100" value="75"
+         low="25" high="75" optimum="100">
+</form>
+
+  </body>
+</html>
