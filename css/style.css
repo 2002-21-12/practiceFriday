@@ -31,10 +31,10 @@ h1{
 }
 /* selector por atributo [*/
 [disabled]{
-    background-color: aqua;
+    background-color:black;
 }
 /* seudoclases */
 .word_group:hover{
-    background-color: yellow;
+    background-color: red;
     padding: 5px;
 }
